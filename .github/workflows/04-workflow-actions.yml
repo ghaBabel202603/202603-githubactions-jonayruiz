@@ -12,4 +12,4 @@ jobs:
         - name: "Install Dependencies"
           working-directory: my-app
           run: |
-            npm ci 
+            npm i
