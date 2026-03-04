@@ -7,5 +7,9 @@ jobs:
     steps:
         - name: "Checkout Code"
           uses: actions/checkout@v5
-        - name: "Printing Folders"
-          uses: jaywcjlove/github-action-folder-tree@main
+        - name: "Node Setup"
+          uses: actions/setup-node@v5
+        - name: "Install Dependencies"
+          working-directory: my-app
+          run: |
+            npm ci 
