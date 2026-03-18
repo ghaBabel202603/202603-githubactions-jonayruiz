@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy:
-    uses: jonayruiz/newrepo/.github/workflows/16-1-reusable-workflow.yaml@main
+    uses: jonayruiz/newrepo/.github/workflows/16-1-reusable-workflow.yml@main
     with:
       target-directory: dist
 
